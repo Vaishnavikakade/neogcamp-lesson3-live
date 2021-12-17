@@ -45,6 +45,7 @@ color: white
 {
     color: var(--primary-color);
     border-radius: 2rem;
+    padding : 1rem;
     border: 2px solid var(--primary-color);
    
 
