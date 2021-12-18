@@ -11,6 +11,7 @@
 body
 {
     font-family: 'Montserrat', sans-serif;
+    
 }
 hr{
     margin: 2rem 0rem;
@@ -72,8 +73,8 @@ color: white
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius:  2rem;
+    border-bottom-right-radius:  2rem;
 }
 
 .navigation .nav-brand
@@ -116,6 +117,7 @@ color: white
 
 .hero .hero-heading .heading-inverted
 {
+    text-align: center;
     color: var(--primary-color);
 }
 
@@ -132,4 +134,23 @@ color: white
 .ow
 {
 background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer
+{
+    background-color: var(--dark-gray);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
